@@ -2,8 +2,10 @@ name: Daily Quote Video Automation
 
 on:
   schedule:
-    # Run once daily at 9:30 PM IST (4:00 PM UTC)
-    - cron: '0 16 * * *'
+
+      # Run 5 times a day (Every 4 hours and 48 minutes if evenly spaced, or pick 5 specific hours)
+     # This example runs every day at 00:00, 05:00, 10:00, 15:00, and 20:00 UTC:
+        - cron: '0 0,5,10,15,20 * * *'
   workflow_dispatch:  # Allow manual trigger
 
 jobs:
