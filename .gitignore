@@ -1,0 +1,45 @@
+# Environment variables
+.env
+.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.venv/
+
+# Project specific
+output/
+images/
+audio/
+topics.txt
+
+video_metadata.json
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Secrets
+POLLINATIONS_API_KEY
+YT_CLIENT_ID
+YT_CLIENT_SECRET
+YT_REFRESH_TOKEN
+FB_PAGE_ID
+FB_ACCESS_TOKEN
+IG_USER_ID
+IG_ACCESS_TOKEN
+THREADS_USER_ID
+THREADS_ACCESS_TOKEN
+TWITTER_API_KEY
+TWITTER_API_SECRET
+TWITTER_ACCESS_TOKEN
+TWITTER_ACCESS_SECRET
+TWITTER_BEARER_TOKEN
+TELEGRAM_BOT_TOKEN
+TELEGRAM_CHANNEL_ID
+VK_APP_ID
+VK_ACCESS_TOKEN
+VK_GROUP_ID
